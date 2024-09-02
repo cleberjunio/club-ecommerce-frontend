@@ -2,7 +2,7 @@ import React from "react"
 import "./App.css"
 import { FunctionComponent } from "react"
 
-          interface AppInterface  {
+            interface AppInterface  {
   message?: string
 }
 
@@ -10,4 +10,4 @@ import { FunctionComponent } from "react"
   return message
 }
 
-export default App
+export default  App

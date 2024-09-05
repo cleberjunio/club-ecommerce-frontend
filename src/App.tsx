@@ -1,13 +1,11 @@
-import React from "react"
-import "./App.css"
 import { FunctionComponent } from "react"
 
-            interface AppInterface  {
+interface AppInterface  {
   message?: string
 }
 
-          const App: FunctionComponent<AppInterface>= ({message}) =>{
-  return message
+  const App: FunctionComponent<AppInterface>= ({message}) =>{
+  return <h1>Hello World</h1>
 }
 
-export default  App
+export default  App;

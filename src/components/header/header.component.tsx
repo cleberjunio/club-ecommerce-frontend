@@ -10,10 +10,8 @@ const Header = () =>{
           <div className="header-item">Criar Conta</div>
           <div className="header-item">
             <BsCart3 size={25}/>
-            </div>
-          
-      </div>
-      
+            </div>          
+      </div>      
     </div>
   )
 }
